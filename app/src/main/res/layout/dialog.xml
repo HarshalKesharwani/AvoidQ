@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@color/common_action_bar_splitter"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="#CD0000"
+        >
+<!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Product Details"
+            android:gravity="center_horizontal"
+            android:textSize="28dp"
+            android:textColor="#ffffff"
+            /> -->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="Product Name :"
+
+            android:textSize="19dip"
+            android:fontFamily="@string/abc_font_family_body_2_material"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:textSize="18dp"
+
+            android:fontFamily="@string/abc_font_family_body_2_material"
+            android:textColor="#000000"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="Price :"
+
+            android:textSize="19dip"
+            android:fontFamily="@string/abc_font_family_body_2_material"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/originalprice"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+
+            android:textSize="18dp"
+            android:fontFamily="@string/abc_font_family_body_2_material"
+            android:textColor="#000000"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="Discount :"
+
+            android:textSize="19dip"
+            android:fontFamily="@string/abc_font_family_body_2_material"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+
+            android:textSize="18dp"
+            android:fontFamily="@string/abc_font_family_body_2_material"
+            android:textColor="#000000"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="Total Price :"
+
+            android:textSize="19dip"
+            android:fontFamily="@string/abc_font_family_body_2_material"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/totalprice"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+
+            android:textSize="18dp"
+            android:fontFamily="@string/abc_font_family_body_2_material"
+            android:textColor="#000000"
+            android:singleLine="true" />
+
+    </LinearLayout>
+<!--
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Select Product quantity:"
+        android:layout_marginBottom="5dp"/>
+        -->
+<!--
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        />
+-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel "
+            android:layout_marginLeft="20dp"
+            android:id="@+id/button_cancle"
+            android:layout_gravity="left"
+            android:background="#CD0000"
+            android:textColor="#ffffff"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Ok "
+            android:layout_marginLeft="25dp"
+            android:id="@+id/button_ok"
+            android:layout_gravity="right"
+            android:background="#CD0000"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

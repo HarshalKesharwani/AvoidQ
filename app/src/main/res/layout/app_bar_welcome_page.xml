@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.admin.avoidq.welcome_page"
+    android:background="@color/common_action_bar_splitter">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#CD0000"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <!--  -->
+            <!-- ?attr/colorControlActivated -->
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avoid Q"
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:id="@+id/toolbar_title" /> -->
+            </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_welcome_page" />
+
+    <!--<android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/orange"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal" >
+        -->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="#fe0303"
+        app:fabSize="normal"
+        android:onClick="cartFloating"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+    <!--
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#000000"
+           android:layout_gravity="bottom|end"
+           android:text="00"
+           android:textSize="25dp"
+           android:paddingTop="400dp"
+           android:paddingBottom="50dp"
+           android:paddingLeft="275dp"
+           android:paddingRight="40dp"
+           android:id="@+id/numbers"
+           android:elevation="7dp"/>
+           -->
+    <!-- android:src="@android:drawable/ic_dialog_email"  -->

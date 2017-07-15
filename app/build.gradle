@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.example.admin.avoidq"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    //compile 'com.itextpdf:itextg:5.4.1'
+    compile 'me.dm7.barcodescanner:zbar:1.9'
+    // https://mvnrepository.com/artifact/me.dm7.barcodescanner/zbar
+    //compile group: 'me.dm7.barcodescanner', name: 'zbar', version: '1.9.1'
+
+    //compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    //compile 'com.android.support:design:24.1.1'
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.google.android.gms:play-services:8.1.0'
+    compile 'com.android.volley:volley:1.0.0'
+    compile files('libs/PGSDK_v1.0.1.jar')
+    compile files('libs/core-3.3.0.jar')
+    // compile files('libs/iconv.jar')
+    compile files('libs/itextpdf-5.4.1.jar')
+    compile files('libs/itext-licensekey-1.0.4.jar')
+    compile files('libs/glide-3.7.0.jar')
+}
+

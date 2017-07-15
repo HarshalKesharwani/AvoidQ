@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+
+    tools:context="com.example.admin.avoidq.AboutUsActivity"
+    android:id="@+id/parents">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="About us"
+        android:textColor="#ffffff"
+        android:background="#CD0000"
+        android:clickable="false"
+        android:textSize="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="RCOEM, Nagpur"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:paddingBottom="16dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="125dp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" CSE Department"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Project Name : Avoid Q"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView4"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Team Members :"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView5"
+        android:gravity="center_horizontal"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" 51. Harshal Kesharwani"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView6"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" 52. Kaustubh Bhat"
+        android:id="@+id/textView7"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" 54. Piyush Jain"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" 55. Pritesh Bhate"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" 69. Tarun Lalwani"
+        android:id="@+id/textView10"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Project Guide :"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView11"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Prof. Mangesh Wanjari"
+        android:id="@+id/textView12"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView11" />
+</RelativeLayout>

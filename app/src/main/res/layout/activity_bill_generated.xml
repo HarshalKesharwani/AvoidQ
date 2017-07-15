@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:id="@+id/parents"
+    tools:context="com.example.admin.avoidq.billGenerated">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Bill Generated"
+
+        android:id="@+id/yoyo1"
+        android:textColor="#ffffff"
+        android:background="#CD0000"
+        android:clickable="false"
+        android:textSize="25dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Your bill id is "
+        android:id="@+id/finalbillid"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@string/abc_font_family_body_2_material"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true" />
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Thank you for shopping! "
+        android:id="@+id/thankyou"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@string/abc_font_family_body_2_material"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true" />
+-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Click here to Pay online! "
+        android:id="@+id/payonline"
+        android:layout_marginTop="150dp"
+
+        android:gravity="center_horizontal"
+        android:fontFamily="@string/abc_font_family_body_2_material"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payonline"
+        android:layout_marginTop="56dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView13" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate PDF"
+        android:id="@+id/generate_pdf"
+        android:layout_below="@+id/textView13"
+        android:textColor="#ffffff"
+        android:background="#CD0000"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="56dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:id="@+id/logout"
+        android:layout_below="@+id/generate_pdf"
+        android:textColor="#ffffff"
+        android:background="#CD0000"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="56dp" />
+</RelativeLayout>
